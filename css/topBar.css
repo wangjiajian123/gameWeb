@@ -1,0 +1,123 @@
+.topBar{
+    height: 55px;
+    background-color: #fbfbfb;
+}
+.topBanxin{
+    width: 1000px;
+    margin:0 auto;
+    position: relative;
+}
+.logoTop{
+    float: left;
+}
+.logoTop a img{
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.topList{
+    position: absolute;
+    right: 122px;
+    width: 536px;
+    height: 52px;
+
+}
+.topList ul{
+    float: right;
+}
+.topList ul li{
+    list-style: none;
+    float: left;
+}
+.topList ul li:last-child a{
+    padding-right: 20px;
+}
+.topList ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+    margin-right: 2px;
+    height: 52px;
+    padding: 0 12px;
+    line-height: 52px;
+    font-family:"Microsoft Yahei";
+}
+.topList ul li a:hover,.topRight li a:hover {
+    background: #F3F3F3;
+    border-bottom: 3px solid #bc2e2e;
+}
+.topList ul li .menu{
+    color: #bc2e2e;
+}
+.topList .box{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    right: 5px;
+    top: 19px;
+    background: #fff;
+}
+.topList .box .sanjiao{
+    height: 10px;
+    width: 11px;
+    background: url("../images/wangyitop/sprite-w_7fc7459.png") no-repeat -101px -95px;
+}
+.topBar .topRight{
+    position: absolute;
+    right: 0px;
+    height: 52px;
+    overflow: hidden;
+}
+.topBar .topRight li{
+    list-style: none;
+}
+.topBar .topRight ul a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    /*padding: 12px;*/
+    /*margin-right: 2px;*/
+    height: 52px;
+    line-height: 52px;
+    font-family:"Microsoft Yahei";
+}
+.topBar .table{
+    height: 475px;
+    width: 1000px;
+    position: absolute;
+    top: 54px;
+    background: #0a0;
+    display: none;
+}
+.topBar .table .top li{
+    float: left;
+    height: 39px;
+    background: #999;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    /*opacity: 0.6;*/
+}
+.topBar .table .top li:nth-child(1){
+    width: 299px;
+}
+.topBar .table .top li:nth-child(2){
+    width: 568px;
+}
+.topBar .table .top li:nth-child(3){
+    width:131px;
+    border-right:none;
+}
+.topBar .table .top li span{
+    display: block;
+    font-size: 14px;
+    color: #bc2e2e;
+    height: 39px;
+    line-height:39px;
+    text-indent: 20px;
+    font-weight: bold;
+}
+.topBar .table .bottom{
+    height: 435px;
+    width: 1000px;
+}

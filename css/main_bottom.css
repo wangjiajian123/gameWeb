@@ -1,0 +1,189 @@
+.main_bottom{
+    height: 950px;
+    width: 100%;
+    background: url("../images/main_bottom/screen-3_a08a1da.jpg")no-repeat top center;
+    position: relative;
+    overflow: hidden;
+}
+.main_bottom .banxin{
+    width: 1349px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+.main_bottom .left_box{
+    height: 260px;
+    width: 448px;
+    position: absolute;
+    top:365px;
+    left: 0px;
+    z-index: 2;
+}
+.main_bottom .right_box{
+    height: 260px;
+    width: 448px;
+    position: absolute;
+    top:365px;
+    right: 0px;
+    z-index: 2;
+}
+.center_box{
+    height: 470px;
+    width: 812px;
+    position: absolute;
+    top: 262px;
+    left: 266px;
+    z-index: 4;
+}
+.center_box div{
+    height: 470px;
+    width: 812px;
+    /*display: none;*/
+    opacity: 0;
+}
+.center_box div img{
+    position: absolute;
+    left: -7px;
+    top:0;
+}
+
+.left_box div{
+    height: 260px;
+    width: 482px;
+    position: absolute;
+    top:-10px;
+    left: -24px;
+    /*display: none;*/
+    opacity: 0;
+}
+
+.left_box div img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.right_box div{
+    height: 260px;
+    width: 482px;
+    position: absolute;
+    top:-10px;
+    right: -24px;
+    /*display:none ;*/
+    opacity: 0;
+}
+.right_box div img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.main_bottom .current{
+    display: block;
+    opacity: 1;
+}
+.main_bottom .prev{
+    width: 50%;
+    height: 293px;
+    position: absolute;
+    top: 342px;
+    left: 0px;
+    cursor: pointer;
+    background: url("../images/main_bottom/tab-next_4264c04.png")no-repeat 126px 154px;
+    z-index: 10;
+}
+.main_bottom .next{
+    width: 50%;
+    height: 293px;
+    position: absolute;
+    top: 342px;
+    right: 0px;
+    cursor: pointer;
+    background: url("../images/main_bottom/tab-prev_c354db5.png")no-repeat 440px 154px;
+    z-index: 10;
+}
+.main_bottom .move_left{
+    height: 160px;
+    width: 407px;
+    position: absolute;
+    /*background: red;*/
+    bottom: 200px;
+    left: 262px;
+    z-index: 6;
+}
+.main_bottom .move_left .word{
+    height: 160px;
+    width: 407px;
+    position: absolute;
+    top:0;
+    left: -672px;
+}
+.main_bottom .move_left .word:last-child{
+    left:0;
+}
+.main_bottom .move_left .word:nth-child(1){
+    background: url("../images/main_bottom/sczl-1_4bcfd1b.png")no-repeat;
+}
+.main_bottom .move_left .word:nth-child(2){
+    background: url("../images/main_bottom/bjez-1_563651b.png")no-repeat -10px -20px;
+}
+.main_bottom .move_left .word:nth-child(4){
+    background: url("../images/main_bottom/jssj-1_560a0a2.png")no-repeat 0px -52px;
+}
+.main_bottom .move_left .word:nth-child(5){
+    background: url("../images/main_bottom/mrwt-1_ca24919.png")no-repeat -62px -66px;
+}
+
+.main_bottom .move_right{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    bottom: 16px;
+    right: 70px;
+    z-index: 6;
+    /*background-color: red;*/
+}
+.main_bottom .move_right .people{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    top:0px;
+    right: -836px;
+}
+.main_bottom .move_right .people:last-child{
+    right:0px;
+}
+.main_bottom .move_right .people:nth-child(1){
+     background: url("../images/main_bottom/sczl-2_df451fa.png")no-repeat -186px 0px;
+}
+.main_bottom .move_right .people:nth-child(2){
+    background: url("../images/main_bottom/bjez-2_2dec16f.png")no-repeat -186px -21px;
+}
+.main_bottom .move_right .people:nth-child(4){
+    background: url("../images/main_bottom/jssj-2_d68c51e.png")no-repeat -186px -55px;
+}
+.main_bottom .move_right .people:nth-child(5){
+    background: url("../images/main_bottom/mrwt-2_e09be16.png")no-repeat 14px 14px;
+}
+
+.main_bottom .point ul{
+    height: 36px;
+    /*background: red;*/
+    position: absolute;
+    bottom:100px;
+    left: 578px;
+    z-index: 10;
+}
+.main_bottom .point ul li{
+    float: right;
+    height: 41px;
+    width: 41px;
+    cursor: pointer;
+}
+.point_mie{
+    background: url("../images/main_bottom/r-1_e2e6d57.png")no-repeat 12px 12px;
+}
+.point_liang{
+    background: url("../images/main_bottom/r-2_ce1d1cd.png")no-repeat center;
+}
+.point_ab{
+    background: url("../images/main_bottom/r-2_ce1d1cd.png")no-repeat center;
+}

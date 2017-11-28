@@ -1,0 +1,118 @@
+.main_mid{
+    height: 970px;
+    width: 100%;
+    background: url("../images/main_mid/screen-2_4bf6236.jpg") top center no-repeat;
+}
+.main_mid .banxin{
+    height: 730px;
+    width: 1280px;
+    margin: 0 auto;
+    /*background: red;*/
+    position: relative;
+    padding-top: 240px;
+}
+.main_mid .banxin .list_box{
+    position: relative;
+    height: 730px;
+    width: 1200px;
+    margin: 0 auto;
+    /*background: url("../images/main_mid/gift-img_0f2d6b0.png") no-repeat -49px 0px;*/
+    /*background: green;*/
+}
+.main_mid .banxin .list_box ul li,.main_mid .banxin .list_box ul li .li{
+    float: left;
+    width: 198px;
+    height: 310px;
+    /*background: yellow;*/
+    /*opacity: 0.5;*/
+    margin-right:2px;
+    margin-bottom: 2px;
+    position: relative;
+    transition: .6s;
+    transform-style: preserve-3d;
+    /*z-index: 66666;*/
+}
+.main_mid .banxin .list_box ul li:hover .li{
+    transform:rotateY(180deg);
+}
+.main_mid .banxin .list_box ul li a{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 198px;
+    height: 310px;
+    z-index: 2;
+    /*transform:translateZ(0px);*/
+    backface-visibility: hidden;
+    cursor: default;
+
+}
+.main_mid .banxin .list_box ul li:nth-child(1) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -43px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(2) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -247px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(3) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -450px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(4) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -654px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(5) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -856px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(6) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -1060px 0px;
+}
+.main_mid .banxin .list_box ul li:nth-child(7) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -43px -309px;
+}
+.main_mid .banxin .list_box ul li:nth-child(8) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -247px -309px;
+}
+.main_mid .banxin .list_box ul li:nth-child(9) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -450px -309px;
+}
+.main_mid .banxin .list_box ul li:nth-child(10) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -654px -309px;
+}
+.main_mid .banxin .list_box ul li:nth-child(11) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -856px -309px;
+}
+.main_mid .banxin .list_box ul li:nth-child(12) a{
+    background: url("../images/main_mid/gift-img_0f2d6b0.png")no-repeat -1060px -309px;
+}
+.main_mid .banxin .list_box ul li .back{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 198px;
+    height: 310px;
+    z-index: 2;
+    background: url("../images/main_mid/btn-h_19f342b.png")no-repeat;
+    /*transform:translateZ(0px);*/
+    /*transition: 0s;*/
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+}
+.main_mid .banxin .list_box ul li .back .title{
+    margin-top: 58px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #1bf9f7;
+    padding: 0 20px;
+    cursor: default;
+}
+.main_mid .banxin .list_box ul li .back .detal{
+    text-align: left;
+    font-size: 14px;
+    color: #7da3d0;
+    line-height: 22px;
+    padding: 0 30px;
+    margin-top: 20px;
+    cursor: default;
+    margin-left: 10px;
+}

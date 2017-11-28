@@ -1,0 +1,310 @@
+.fixed_box{
+    width: 390px;
+    height: 100px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    background: url("../images/booking/order-btn_93d0745.jpg") no-repeat;
+    cursor: pointer;
+    z-index: 10;
+}
+.fixed_box span{
+    position: absolute;
+    top: -25px;
+    right: 12px;
+    width: 18px;
+    height: 44px;
+    background: url("../images/booking/icon-3_d2961fe.png")no-repeat;
+}
+
+.show_bottom{
+    background: url("../images/booking/order-x_388c621.png");
+    position: fixed;
+    left: 0;
+    bottom: -260px;
+    height: 236px;
+    width: 100%;
+    z-index: 10000;
+}
+.show_bottom .banxin{
+    width: 1140px;
+    height:236px;
+    margin: 0 auto;
+    background: url("../images/booking/order-cont_97b9614.png")no-repeat 50% 50%;
+    /*position: relative;*/
+}
+.show_bottom .banxin .qrcode{
+    text-align: center;
+    width: 164px;
+    padding-top: 30px;
+}
+.show_bottom .banxin .qrcode p{
+    font-size: 14px;
+    color: #467cc7;
+}
+.show_bottom .banxin .show_btn{
+    position: absolute;
+    top: 130px;
+    left: 302px;
+    width: 168px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #1bf9f7;
+}
+.show_bottom .banxin .show_btn .front{
+    position: absolute;
+    left: 42px;
+    top: 0;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.show_bottom .banxin .show_btn .back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.show_bottom .banxin .number{
+    position: absolute;
+    top: 182px;
+    left: 300px;
+    width: 168px;
+    text-align: center;
+    font-size: 14px;
+    color: #467cc7;
+}
+.show_bottom .banxin .number em{
+    font-style: normal;
+    color: #d61528;
+    font-size: 14px;
+    font-weight: bold;
+}
+.show_bottom .banxin .gift_list{
+    width: 730px;
+    height: 124px;
+    position: absolute;
+    z-index: 2;
+    top: 14px;
+    left: 534px;
+    /*background: red;*/
+}
+.show_bottom .banxin .gift_list .gift{
+    float: left;
+    position: relative;
+    width: 124px;
+    height: 124px;
+    margin-right: 22px;
+    cursor: pointer;
+    /*background: url("../images/booking/sp-1-h_df2ae97.png")*/
+}
+.show_bottom .banxin .gift_list .gift:nth-child(1){
+    background: url("../images/booking/sp-1-h_df2ae97.png") no-repeat 8px -4px;
+}
+.show_bottom .banxin .gift_list .gift:nth-child(2){
+    background: url("../images/booking/sp-2-h_070738e.png") no-repeat 9px -3px;
+}
+.show_bottom .banxin .gift_list .gift:nth-child(3){
+    background: url("../images/booking/sp-3-h_5d7ae78.png") no-repeat 2px -2px;
+}
+.show_bottom .banxin .gift_list .gift:nth-child(4){
+    background: url("../images/booking/sp-4_5c92e6a.png") no-repeat 9px -2px;
+}
+.show_bottom .banxin .gift_list .gift:nth-child(5){
+    background: url("../images/booking/sp-5_682d6ba.png") no-repeat 4px -2px;
+}
+.show_bottom .banxin .gift_list .gift .done{
+    position: absolute;
+    top: 36px;
+    left: 21px;
+    width: 83px;
+    height: 50px;
+    background: url(../images/booking/done-img_01cb16d.png) no-repeat center;
+    text-align: center;
+}
+.show_bottom .banxin .gift_list .gift .tip{
+    position: absolute;
+    top: -147px;
+    left: 50%;
+    margin-left: -131px;
+    width: 263px;
+    /*height: 133px;*/
+    border: 1px solid #549ff6;
+    background-color: #0d1a31;
+    padding-bottom: 15px;
+    display: none;
+}
+.show_bottom .banxin .gift_list .gift .tip .title{
+    height: 50px;
+    border-bottom: 1px solid #132540;
+    text-align: center;
+    position: relative;
+}
+.show_bottom .banxin .gift_list .gift .tip .title span{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #7f7f7f;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.show_bottom .banxin .gift_list .gift .tip .title .l{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    margin-top: -10px;
+    background: url(../images/booking/icon-2_328c527.png) no-repeat;
+    width: 11px;
+    height: 19px;
+}
+.show_bottom .banxin .gift_list .gift .tip .title .r{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    margin-top: -10px;
+    background: url(../images/booking/icon-2_328c527.png) no-repeat;
+    width: 11px;
+    height: 19px;
+}
+.show_bottom .banxin .gift_list .gift .tip .msg{
+    text-align: center;
+}
+.show_bottom .banxin .gift_list .gift .tip .msg h4{
+    font-size: 18px;
+    color: #5497e6;
+    padding: 10px 0;
+}
+.show_bottom .banxin .gift_list .gift .tip .msg p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #5497e6;
+}
+.show_bottom .banxin .gift_list .gift .tip .sanjiao{
+    background: url(../images/booking/icon-1_78e94bb.png) no-repeat;
+    width: 20px;
+    height: 9px;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -10px;
+}
+.show_bottom .banxin .gift_list .gift:hover .tip{
+    display: block;
+}
+.show_bottom .banxin .progress_bar{
+    position: absolute;
+    left: 584px;
+    top: 132px;
+    z-index: 1;
+    background: url(../images/booking/pro-img_950ed00.png) no-repeat;
+    width: 615px;
+    height: 10px;
+}
+.show_bottom .banxin .progress_bar .heixian{
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    width: 600px;
+    height: 1px;
+    background: #091937;
+}
+.show_bottom .banxin .progress_bar .heixian .baixian{
+    position: absolute;
+    height: 100%;
+    width: 68%;
+    left: 0;
+    top: 0;
+    background-color: #1bf9f7;
+}
+.show_bottom .banxin .progress_bar .heixian .baixian .jintou{
+    position: absolute;
+    right: -118px;
+    top: 50%;
+    margin-top: -61px;
+    background: url(../images/booking/g-img_6038e81.png) no-repeat 0 0;
+    width: 222px;
+    height: 100px;
+}
+.show_bottom .banxin .text-list{
+    position: absolute;
+    top: 157px;
+    left: 526px;
+    right: 0;
+    /*background: red;*/
+}
+.show_bottom .banxin .text-list .gift-1{
+    position: absolute;
+    top:0px;
+    left: 9px;
+    /*background: yellow;*/
+    text-align: center;
+}
+.show_bottom .banxin .text-list .gift-2{
+    position: absolute;
+    top:0px;
+    left: 183px;
+}
+.show_bottom .banxin .text-list .gift-3 {
+    position: absolute;
+    top:0px;
+    left: 330px;
+}
+.show_bottom .banxin .text-list .gift-4 {
+    position: absolute;
+    top:0px;
+    left: 480px;
+}
+.show_bottom .banxin .text-list .gift-5 {
+    position: absolute;
+    top:0px;
+    left: 630px;
+}
+.show_bottom .banxin .text-list strong{
+    font-size: 18px;
+    color: #1bf9f7;
+    display: block;
+    font-weight: 700;
+}
+.show_bottom .banxin .text-list span{
+    position: relative;
+    font-size: 24px;
+    color: #5497e6;
+    line-height: 36px;
+}
+.show_bottom .banxin .text-list span .icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -11.5px;
+    left: -30px;
+    display: inline-block;
+    background: url(../images/booking/icon-6_09b52cd.png) no-repeat;
+    width: 23px;
+    height: 23px;
+}
+.show_bottom .banxin .text-list .isok .icon {
+    background: url(../images/booking/icon-5_766de01.png) no-repeat;
+}
+.show_bottom .banxin .text-list .gift-1 span {
+    font-size: 14px;
+    color: #1bf9f7;
+    line-height: 27px;
+}
+.show_bottom .banxin .text-list .isok strong, .show_bottom .banxin .text-list .isok span {
+    color: #1bf9f7;
+}
+
+.show_bottom .banxin .close {
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    width: 84px;
+    height: 24px;
+    cursor: pointer;
+    background: url(../images/booking/icon-4_73fbcf4.png) no-repeat;
+}

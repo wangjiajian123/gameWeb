@@ -1,0 +1,212 @@
+.show_screen{
+    width: 100%;
+    height: 100%;
+    background: url("../images/booking/pop-mask-x_d3ea5dc.png");
+    position: fixed;
+    z-index: 10000;
+    top:0;
+    left: 0;
+    display: none;
+}
+.show_screen .client{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -241px;
+    width: 483px;
+    height: 300px;
+    z-index: 10001;
+}
+.show_screen .client .title{
+    position: relative;
+    text-align: center;
+    height: 48px;
+    width: 483px;
+    border-bottom: 1px solid #545454;
+}
+.show_screen .client .title span{
+    color: #fff;
+    font-size: 26px;
+}
+.show_screen .client .title .l{
+    position: absolute;
+    top: 12px;
+    left: 54px;
+    background: url(../images/booking/line-2_605023b.png) no-repeat;
+    width: 11px;
+    height: 19px;
+}
+.show_screen .client .title .r{
+    position: absolute;
+    top: 12px;
+    right: 54px;
+    background: url(../images/booking/line-2_605023b.png) no-repeat;
+    width: 11px;
+    height: 19px;
+}
+.show_screen .client .system{
+    height: 21px;
+    width: 100%;
+    /*background: yellow;*/
+    padding: 30px 0 18px;
+}
+.show_screen .client .system .left{
+    float: left;
+    height: 21px;
+    width: 241px;
+    /*background: green;*/
+    border-right: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.show_screen .client .system .left .fangkuai{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 17px;
+}
+.show_screen .client .system .left .checked{
+    height: 10px;
+    width: 10px;
+    background: url("../images/booking/checked-box_0d82b4e.jpg")no-repeat;
+    display: inline-block;
+    margin-right: 17px;
+}
+.show_screen .client .system .left span{
+    font-size: 14px;
+    color: #fff;
+}
+
+.show_screen .client .system .right{
+    float: left;
+    height: 21px;
+    width: 241px;
+    /*background: red;*/
+    text-align: center;
+    cursor: pointer;
+}
+.show_screen .client .system .right .fangkuai{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 17px;
+}
+.show_screen .client .system .right .checked{
+    height: 10px;
+    width: 10px;
+    background: url("../images/booking/checked-box_0d82b4e.jpg")no-repeat;
+    display: inline-block;
+    margin-right: 17px;
+}
+.show_screen .client .system .right span{
+    font-size: 14px;
+    color: #fff;
+}
+.show_screen .client .phone_number,.show_screen .client .yzm{
+    height: 44px;
+    width: 366px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.show_screen .client input{
+    background-color: #3f3f3f;
+    width: 342px;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px;
+    border-radius: 4px;
+    border:none;
+}
+.show_screen .client .phone_number input{
+    width: 342px;
+}
+.show_screen .client .yzm input{
+    width: 200px;
+}
+.show_screen .client .yzm .yzm_pic img{
+    width: 100%;
+    height: 100%;
+}
+.show_screen .client .yzm .yzm_pic{
+    position: relative;
+    float: right;
+    width: 118px;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.show_screen .client .confirm{
+    position: relative;
+    width: 366px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #1bf9f7;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.show_screen .client .confirm span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: #000;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.show_screen .client .confirm .back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 0px;
+    border-radius: 4px;
+}
+.show_screen .close_line{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+.show_screen .close_line .line_l{
+     position: absolute;
+     top: 50%;
+     left: -48px;
+     margin-top: -.5px;
+     width: 50%;
+     height: 1px;
+     background-color: #545454;
+ }
+.show_screen .close_line .line_r{
+    position: absolute;
+    top: 50%;
+    right: -48px;
+    margin-top: -.5px;
+    width: 50%;
+    height: 1px;
+    background-color: #545454;
+}
+.show_screen .close_line .x{
+    position: relative;
+    background: url(../images/booking/close-btn_c876d7c.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.show_screen .close_line .x:hover{
+    transform: rotate(90deg);
+}
+.show_screen .close_line .word{
+    background: url(../images/booking/close-text_ea34938.png) no-repeat;
+    width: 41px;
+    height: 5px;
+    margin: 10px auto 0;
+}
